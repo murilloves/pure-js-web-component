@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Murillo's Personal Website</title>
+	</head>
+	<body>
+		<!--
+			IMPORTS: EVERY IMPORT FILE MUST BE DECLARED INSIDE CONST 'importPaths',
+			WITHIN THE FOLLOWING .JS FILE
+		-->
+		<script src="imports.js"></script>
+		<!--
+			/IMPORTS END
+		-->
+
+		<div style="font-size: 1.5em">
+			<h2>Personal Info</h2>
+			<hr>
+
+			<div id="age">
+				Age: {{ Age }}
+			</div>
+			<div id="sex">
+				Sex: male
+			</div>
+			<div id="marialState">
+				Marial state: single
+			</div>
+			<div id="birth">
+				Date of birth: October 2<span style="margin-top: -1em">nd</span>, 1990
+			</div>
+
+			<br><hr><br>
+
+			<div style="text-align: center">
+				Hour:
+				<div id="hour"></div>
+			</div>
+		</div>
+
+		<my-tag></my-tag>
+		<my-tag></my-tag>
+		<my-tag></my-tag>
+		<your-tag></your-tag>
+		<your-tag></your-tag>
+
+	</body>
+</html>

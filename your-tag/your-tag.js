@@ -1,0 +1,6 @@
+(function () {
+
+	appendTags('your-tag');
+
+})();
+

@@ -1,0 +1,5 @@
+(function () {
+
+	appendTags('my-tag');
+
+})();
