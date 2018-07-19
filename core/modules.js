@@ -1,11 +1,10 @@
 const components = [
-	['components/append-tags.js'],
+	['core/components/append-component.js'],
 ]
 
 const modules = [
-	['scripts.js'],
-	['my-tag/my-tag.js'],
-	['your-tag/your-tag.js'],
+	['core/app/first-component/first-component.js'],
+	['core/app/second-component/second-component.js'],
 ];
 
 let scriptIndex = 0;
@@ -34,10 +33,6 @@ let scriptIndex = 0;
 	};
 
 	(function importScripts() {
-		// importSources(components);
-		// setTimeout(function() {
-		// 	importSources(modules);
-		// }, 50);
 		/* WITH PROMISES: */
 		promiseImportComponents().then(function() {
 			setTimeout(function() {
