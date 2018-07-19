@@ -24,17 +24,19 @@ They are pieces of code that you can attach into your DOM. Usually they come in 
 <html>
     <head>
 
-		<!-- IMPORT THE CORE MODULES -->
+	<!-- IMPORT THE CORE MODULES -->
         <script src="core/modules.js"></script>
 
     </head>
     <body>
-         <!-- WRITE YOUR TAGS AS BELOW -->
 
-		<first-sample-tag></first-sample-tag>
-		<second-sample-tag></second-sample-tag>
+        <!-- WRITE YOUR TAGS AS BELOW -->
 
-		<!-- you can style the tags and add outer divs too -->
+	<first-sample-tag></first-sample-tag>
+	<second-sample-tag></second-sample-tag>
+
+	<!-- you can style the tags and add outer divs too -->
+
     </body>
 </html>
 ```
@@ -43,13 +45,13 @@ They are pieces of code that you can attach into your DOM. Usually they come in 
 ```javascript
 /* here goes the append component */
 const components = [
-	['core/components/append-component.js'],
+      ['core/components/append-component.js'],
 ];
 
 /* TYPE THE PATH OF YOUR COMPONENT TAGS */
 const modules = [
-	['core/app/first-sample-tag/first-sample-tag.js'],
-	['core/app/second-sample-tag/second-sample-tag.js'],
+      ['core/app/first-sample-tag/first-sample-tag.js'],
+      ['core/app/second-sample-tag/second-sample-tag.js'],
 ];
 
 /* code that import the files goes below (be sure to modify it) */
@@ -83,37 +85,33 @@ const modules = [
 [core/components/append-component.js](https://github.com/murilloves/pure-js-web-component/blob/master/core/components/append-component.js)
 
 
-###Image Tips
+###Images
 
-Folder structure:
-
-![](https://github.com/murilloves/pure-js-web-component/tree/master/core/images/folder_structure.jpg)
+![](https://murilloves.github.io/images/pure-js-web-component/folder_structure.jpg)
 
 > Folder structure.
 
-Samples files:
-
-![](https://github.com/murilloves/pure-js-web-component/tree/master/core/images/files_structure.jpg)
+![](https://murilloves.github.io/images/pure-js-web-component/files_structure.jpg)
 
 > Sample files.
 
-Web Page:
-
-![](https://github.com/murilloves/pure-js-web-component/tree/master/core/images/html_page.jpg)
+![](https://murilloves.github.io/images/pure-js-web-component/html_page.jpg)
 
 > Web Page (Web Component running).
 
 
 
-## I want to improve it too
+## Want to run or improve it?
 
-#### Install:
+#### 1 - Clone
+
+#### 2 - Install
 `npm install -g http-server`
 
-#### Serve (Run):
+#### 3 - Serve (Run)
 `http-server ./ -p 80`
 
-#### It should be Listening at:
+#### 4 - It should be Listening at
 * [http://127.0.0.1](http://127.0.0.1)
 
 or
