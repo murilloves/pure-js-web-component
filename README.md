@@ -82,22 +82,23 @@ const modules = [
 ## Download the sources
 
 [core/modules.js](https://github.com/murilloves/pure-js-web-component/blob/master/core/modules.js)
+
 [core/components/append-component.js](https://github.com/murilloves/pure-js-web-component/blob/master/core/components/append-component.js)
 
 
-###Images
+### Images
 
+### 
+> Folder structure.
 ![](https://murilloves.github.io/images/pure-js-web-component/folder_structure.jpg)
 
-> Folder structure.
-
+### 
+> Sample files.
 ![](https://murilloves.github.io/images/pure-js-web-component/files_structure.jpg)
 
-> Sample files.
-
-![](https://murilloves.github.io/images/pure-js-web-component/html_page.jpg)
-
+### 
 > Web Page (Web Component running).
+![](https://murilloves.github.io/images/pure-js-web-component/html_page.jpg)
 
 
 
