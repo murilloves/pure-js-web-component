@@ -33,11 +33,10 @@ let scriptIndex = 0;
 	};
 
 	(function importScripts() {
-		/* WITH PROMISES: */
 		promiseImportComponents().then(function() {
 			setTimeout(function() {
 				return importSources(modules);
-			}, 10);
+			}, 0);
 		})
 	})();
 
