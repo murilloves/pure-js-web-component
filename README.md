@@ -1,8 +1,8 @@
-# MyPersonalWebSite
+# Pure JS Web Component
 
 ## Production mode:
 
-* [My Personal Website](https://murilloves.github.io/) - Running app
+* [Pure JS Web Component](https://github.com/murilloves/pure-js-web-component) - Running app
 
 ## Development mode:
 ### Install:
